@@ -26,3 +26,7 @@ function draw(){
     fill("cyan");
     circle(450, 400, 70);
 }
+
+function take_snapshot(){
+    save('selfie.png').value;
+}
